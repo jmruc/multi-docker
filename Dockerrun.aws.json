@@ -4,14 +4,14 @@
         {
             "name": "fib-client",
             "image": "kirilraychev/fib-client",
-            "hostname": "client",
+            "hostname": "fib-client",
             "memory": 128,
             "essential": false
         },
         {
             "name": "fib-server",
             "image": "kirilraychev/fib-server",
-            "hostname": "api",
+            "hostname": "fib-api",
             "memory": 128,
             "essential": false
         },
